@@ -1,14 +1,13 @@
 import "./Header.css";
 
-const Header = ( {title, leftChild, rightChild})=>{
+const Header = ( { title, leftChild, rightChild }) =>{
     return(
         <>
-        <div className="Header">
-            <div className="header_left">{leftChild}</div>
-            <div className="header_left">{title}</div>
-            <div className="header_left">{rightChild}</div>
-            
-        </div>
+           <div className="Header">
+              <div className="header_left"> {leftChild} </div>
+              <div className="header_title"> {title} </div>
+              <div className="header_right"> {rightChild} </div>
+           </div>
         </>
     );
 }

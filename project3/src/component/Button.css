@@ -7,7 +7,7 @@
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
-    white-space: nowrap; /* 공백여러개를 하나로 합침 */
+    white-space: nowrap;  
 }
 .Button_default{
     background-color: #ececec;
@@ -23,6 +23,3 @@
     background-color: #fd565f;
     color:white;
 }
-
-
-
